@@ -4,31 +4,22 @@ import "../styles/Global.css";
 export default function About() {
   return (
     <div>
-      <div class="main" id="main">
-        <div class="left">
-          <h5>General Trading and Power Generating T&D Consultance</h5>
-          <h3>Company Tagline!</h3>
-          <p>
-            Hero section should also include a brief overview of the company and
-            its mission statement.
-          </p>
-          <button>Explore more</button>
-        </div>
-      </div>
-
       <div class="about" id="about">
         <div class="left"></div>
         <div class="right">
           <h3>About us</h3>
           <h5>Company History & Culture</h5>
           <p>
-            ● Company history: This section should provide a brief overview of
-            the company's history, its founding, and its milestones.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam
+            eveniet enim cupiditate repellendus accusantium culpa et maiores.
+            Facilis quas amet, rerum eum magni eaque sunt sequi unde eligendi
+            quibusdam temporibus?
           </p>
           <p>
-            ● Company Culture: This section should describe the company's
-            culture and values. It should give visitors a sense of what it's
-            like to work at the company.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore
+            consequatur, nulla rem accusamus quisquam laudantium sunt quasi in
+            architecto odit atque optio a laboriosam, accusantium quas ab autem
+            odio non!
           </p>
         </div>
       </div>
@@ -43,7 +34,7 @@ export default function About() {
           <div class="item">
             <div class="info">
               <h4>Yanuar Hakim</h4>
-              <p>President Commissioner</p>
+              <p>Founder & President Commissioner</p>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Dolores, repudiandae. Mollitia, doloribus tenetur, quo quia

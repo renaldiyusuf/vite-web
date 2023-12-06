@@ -1,13 +1,14 @@
 import React from "react";
 import "../styles/Global.css";
 import { Link } from "react-router-dom";
+import Logo from "../assets/mhv-logo.png";
 
 export default function Navbar() {
   return (
-    <div>
+    <div style={{ position: "sticky", top: 0 }}>
       <nav>
         <div class="logo">
-          <img src="../assets/mhv-logo.png" />
+          <img src={Logo} alt="Logo" />
           <a href="#main">MULTI HAR VENTURA</a>
         </div>
         <ul>

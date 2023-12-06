@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Global.css";
+import Logo from "../assets/mhv-logo.png";
 
 export default function Footer() {
   return (
@@ -7,7 +8,7 @@ export default function Footer() {
       <footer>
         <div class="top">
           <div class="logo">
-            <img src="../assets/mhv-logo.png" />
+            <img src={Logo} alt="Logo" />
             <a href="#main">MULTI HAR VENTURA</a>
           </div>
           <ul>
@@ -26,13 +27,16 @@ export default function Footer() {
           </ul>
           <div class="social-links">
             <a href="#">
-              <i class="bx bxl-facebook-circle"></i>
+              <box-icon type="logo" name="facebook-square"></box-icon>
             </a>
             <a href="#">
-              <i class="bx bxl-linkedin-square"></i>
+              <box-icon type="logo" name="twitter"></box-icon>
             </a>
             <a href="#">
-              <i class="bx bxl-blogger"></i>
+              <box-icon name="instagram" type="logo"></box-icon>
+            </a>
+            <a href="#">
+              <box-icon name="linkedin-square" type="logo"></box-icon>
             </a>
           </div>
         </div>

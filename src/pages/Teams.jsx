@@ -4,18 +4,6 @@ import "../styles/Global.css";
 export default function Teams() {
   return (
     <div>
-      <div class="main" id="main">
-        <div class="left">
-          <h5>General Trading and Power Generating T&D Consultance</h5>
-          <h3>Company Tagline!</h3>
-          <p>
-            Hero section should also include a brief overview of the company and
-            its mission statement.
-          </p>
-          <button>Explore more</button>
-        </div>
-      </div>
-
       <div class="founder" id="teams">
         <div class="header">
           <div class="info">
@@ -79,8 +67,8 @@ export default function Teams() {
         <div class="founder-items">
           <div class="item">
             <div class="info">
-              <h4>Yanuar Hakim</h4>
-              <p>President Commissioner</p>
+              <h4>Boyd Watts</h4>
+              <p>Head of Engineering</p>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Dolores, repudiandae. Mollitia, doloribus tenetur, quo quia
@@ -95,8 +83,8 @@ export default function Teams() {
           </div>
           <div class="item">
             <div class="info">
-              <h4>Auliani Ramadana</h4>
-              <p>Managing Director</p>
+              <h4>Leta Winters</h4>
+              <p>Finance Manager</p>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Voluptatibus ab, accusantium aliquam quod dolorum tempore
@@ -110,8 +98,8 @@ export default function Teams() {
           </div>
           <div class="item">
             <div class="info">
-              <h4>Renaldi Yusuf</h4>
-              <p>Operational Director</p>
+              <h4>Seth Hamilton</h4>
+              <p>Operational Manager</p>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Reprehenderit cumque id mollitia excepturi molestiae suscipit

@@ -1,28 +1,21 @@
 import React from "react";
 import "../styles/Global.css";
+import "boxicons";
+import Images from "../assets/background-2.png";
+import Eren from "../assets/eren.jpeg";
+import Gojo from "../assets/gojo.jpeg";
+import Luffy from "../assets/luffy.jpeg";
 
 export default function Home() {
   return (
     <div>
       <body>
-        <div class="main" id="main">
-          <div class="left">
-            <h5>General Trading and Power Generating T&D Consultance</h5>
-            <h3>Company Tagline!</h3>
-            <p>
-              Hero section should also include a brief overview of the company
-              and its mission statement.
-            </p>
-            <button>Explore more</button>
-          </div>
-        </div>
-
         <div class="products" id="products">
           <h5>Our Services</h5>
           <div class="products-items">
             <div class="item">
               <div class="icon">
-                <i class="bx bxs-bolt"></i>
+                <box-icon type="solid" name="bolt"></box-icon>
               </div>
               <h4>Energies</h4>
               <p>
@@ -34,7 +27,7 @@ export default function Home() {
             </div>
             <div class="item">
               <div class="icon">
-                <i class="bx bx-cog"></i>
+                <box-icon name="cog"></box-icon>
               </div>
               <h4>Machinery</h4>
               <p>
@@ -46,7 +39,7 @@ export default function Home() {
             </div>
             <div class="item">
               <div class="icon">
-                <i class="bx bxs-factory"></i>
+                <box-icon type="solid" name="factory"></box-icon>
               </div>
               <h4>Power and Grid</h4>
               <p>
@@ -58,7 +51,7 @@ export default function Home() {
             </div>
             <div class="item">
               <div class="icon">
-                <i class="bx bxs-radiation"></i>
+                <box-icon type="solid" name="radiation"></box-icon>
               </div>
               <h4>Semiconductor</h4>
               <p>
@@ -73,14 +66,17 @@ export default function Home() {
 
         <div class="about" id="about">
           <div class="left">
-            <img src={"../assets/background-1.png"} />
+            <img src={Images} alt="Background" />
           </div>
           <div class="right">
-            <h5>About us</h5>
-            <p>
-              This section should provide a more detailed overview of the
-              company, its history, its team, and its culture.
-            </p>
+            <h5>
+              We help businesses like yours earn more customers & standout from
+              competitors
+            </h5>
+            {/* <p>
+              We help businesses like yours earn more customers, standout from
+              competitors
+            </p> */}
           </div>
         </div>
 
@@ -94,7 +90,7 @@ export default function Home() {
             <div class="item">
               <div class="info">
                 <h4>Yanuar Hakim</h4>
-                <p>President Commissioner</p>
+                <p>Founder & President Commissioner</p>
                 <p>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Dolores, repudiandae. Mollitia, doloribus tenetur, quo quia
@@ -102,9 +98,7 @@ export default function Home() {
                   necessitatibus recusandae provident? Quibusdam eveniet iste
                   magni minima?
                 </p>
-                <a href="#">
-                  View on LinkedIn <i class="bx bx-link-external"></i>
-                </a>
+                <a href="#">View on LinkedIn </a>
               </div>
             </div>
             <div class="item">
@@ -146,11 +140,11 @@ export default function Home() {
           <div class="customers">
             <div class="item">
               <div class="rating">
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
+                <box-icon type="solid" name="star"></box-icon>
+                <box-icon type="solid" name="star"></box-icon>
+                <box-icon type="solid" name="star"></box-icon>
+                <box-icon type="solid" name="star"></box-icon>
+                <box-icon type="solid" name="star"></box-icon>
               </div>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
@@ -159,7 +153,7 @@ export default function Home() {
                 doloribus quisquam asperiores illo.
               </p>
               <div class="user">
-                <img src="../assets/gojo.jpeg" />
+                <img src={Gojo} alt="reviews" />
                 <div class="info">
                   <h5>Satoru Gojo</h5>
                   <p>JJK Stongest Sorcerer</p>
@@ -168,11 +162,11 @@ export default function Home() {
             </div>
             <div class="item">
               <div class="rating">
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
+                <box-icon type="solid" name="star"></box-icon>
+                <box-icon type="solid" name="star"></box-icon>
+                <box-icon type="solid" name="star"></box-icon>
+                <box-icon type="solid" name="star"></box-icon>
+                <box-icon type="solid" name="star"></box-icon>
               </div>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
@@ -181,7 +175,7 @@ export default function Home() {
                 doloribus quisquam asperiores illo.
               </p>
               <div class="user">
-                <img src="../assets/luffy.jpeg" />
+                <img src={Luffy} alt="reviews" />
                 <div class="info">
                   <h5>Monkey D. Luffy</h5>
                   <p>One Piece Pirate King</p>
@@ -190,11 +184,11 @@ export default function Home() {
             </div>
             <div class="item">
               <div class="rating">
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
+                <box-icon type="solid" name="star"></box-icon>
+                <box-icon type="solid" name="star"></box-icon>
+                <box-icon type="solid" name="star"></box-icon>
+                <box-icon type="solid" name="star"></box-icon>
+                <box-icon type="solid" name="star"></box-icon>
               </div>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
@@ -203,7 +197,7 @@ export default function Home() {
                 doloribus quisquam asperiores illo.
               </p>
               <div class="user">
-                <img src="../assets/eren.jpeg" />
+                <img src={Eren} alt="reviews" />
                 <div class="info">
                   <h5>Eren Yeager</h5>
                   <p>AoT Founding Titan</p>
